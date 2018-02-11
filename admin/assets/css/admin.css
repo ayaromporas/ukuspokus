@@ -1,0 +1,24 @@
+#show-hide-sidebar-toggle, #hamburgerhead {
+	margin: 0 15px;
+}
+
+.show-hide-sidebar span, .hamburger span {
+	background: #28a745;
+}
+
+.show-hide-sidebar span:before,
+.show-hide-sidebar span:after,
+.hamburger span:before,
+.hamburger span:after {
+	  background-color: #28a745;
+
+}
+
+.show-hide-sidebar:hover span,
+.show-hide-sidebar:hover span:before,
+.show-hide-sidebar:hover span:after,
+.hamburger:hover span,
+.hamburger:hover span:before,
+.hamburger:hover span:after {
+  background-color: #8c7c5f;
+}
